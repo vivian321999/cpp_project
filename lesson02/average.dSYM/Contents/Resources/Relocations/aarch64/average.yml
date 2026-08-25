@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     "/Users/vivian/程序设计/lesson02/average"
+relocations:     []
+...
