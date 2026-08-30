@@ -1,27 +1,28 @@
 #include<iostream>
+using namespace std;
 int main()
 {
-    printf("Enter your grade: ");
+    cout << "Enter your grade: " << endl;
     int grade;
-    scanf("%d",&grade);
+    cin >> grade;
     grade = grade/10;
     switch(grade)
     {
         case 10:
         case 9:
-            printf("A\n");
+            cout << "A" << endl;
             break;
         case 8:
-            printf("B\n");
+            cout << "B" << endl;
             break;
         case 7:
-            printf("C\n");
+            cout << "C" << endl;
             break;
         case 6:
-            printf("D\n");
+            cout << "D" << endl;
             break;
         default:
-            printf("F\n");
+            cout << "F" << endl;
     }
     return 0;
 }

@@ -1,21 +1,22 @@
 #include<iostream>
+using namespace std;
 int main()
 {
     int type;
-    scanf("%d",&type);
+    cin >> type;
     switch(type)
     {
         case 1:
-            printf("You selected 1\n");
+            cout << "You selected 1" << endl;
             break;
         case 2:
-            printf("You selected 2\n");
+            cout << "You selected 2" << endl;
             break;
         case 3:     
-            printf("You selected 3\n");
+            cout << "You selected 3" << endl;
             break;
         default:
-            printf("You selected an invalid option\n");     
+            cout << "You selected an invalid option" << endl;     
     }
     return 0;
 }

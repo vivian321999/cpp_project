@@ -1,46 +1,47 @@
 #include<iostream>
+using namespace std;
 int main()
 {
-    printf("Enter a month number (1-12): ");
+    cout << "Enter a month number (1-12): " << endl;
     int month;
-    scanf("%d",&month);
+    cin >> month;
     switch(month)
     {
         case 1:
-            printf("January\n");
+            cout << "January" << endl;
             break;  
         case 2:
-            printf("February\n");
+            cout << "February" << endl;
             break;
         case 3:
-            printf("March\n");
+            cout << "March" << endl;
             break;
         case 4:
-            printf("April\n");
+            cout << "April" << endl;
             break;
         case 5:
-            printf("May\n");
+            cout << "May" << endl;
             break;
         case 6:
-            printf("June\n");
+            cout << "June" << endl;
             break;
         case 7:
-            printf("July\n");
+            cout << "July" << endl;
             break;
         case 8:
-            printf("August\n");
+            cout << "August" << endl;
             break;
         case 9:
-            printf("September\n");
+            cout << "September" << endl;
             break;
         case 10:
-            printf("October\n");
+            cout << "October" << endl;
             break;
         case 11:
-            printf("November\n");
+            cout << "November" << endl;
             break;
         case 12:
-            printf("December\n");
+            cout << "December" << endl;
             break;
         }
     return 0;

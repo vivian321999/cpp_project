@@ -1,7 +1,8 @@
 #include<iostream>
+using namespace std;
 int main(){
     int x;
-    scanf("%d",&x);
+    cin >> x;
     int f=0;
     if(x<0){
         f=-1;
@@ -12,6 +13,6 @@ int main(){
     }else{
         f=3*x;
     }
-    printf("%d\n",f);
+    cout << f << endl;
     return 0;
 }

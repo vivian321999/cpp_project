@@ -1,4 +1,5 @@
 #include<iostream>
+using namespace std;
 int main(){
 
     const double RATE = 8.25;
@@ -6,15 +7,15 @@ int main(){
     double pay = 0.0;
     int hours;
 
-    printf("请输入工作小时数：");
-    scanf("%d",&hours);
-    printf("\n");
+    cout << "请输入工作小时数：" << endl;
+    cin >> hours;
+    cout << endl;
     if (hours <= STANDARD){
         pay = hours * RATE;
     } else {
         pay = STANDARD * RATE + (hours - STANDARD) * RATE * 1.5;
     }
-    printf("工资为：%.2f\n",pay);
+    cout << "工资为：" << pay << endl;
 
     return 0;
 }

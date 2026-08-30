@@ -1,9 +1,10 @@
 #include<iostream>
+using namespace std;
 int main(){
 
     int a,b,c;
-    printf("请输入三个整数：");
-    scanf("%d %d %d",&a,&b,&c);
+    cout << "请输入三个整数：" << endl;
+    cin >> a >> b >> c;
     int max = a;
     if (b > max){
         max = b;
@@ -11,6 +12,6 @@ int main(){
     if (c > max){
         max = c;
     }
-    printf("三个数中最大的是：%d\n",max);
+    cout << "三个数中最大的是：" << max << endl;
     return 0;
 }
