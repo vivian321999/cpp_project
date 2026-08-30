@@ -1,15 +1,13 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main()
-{
+int main() {
     cout << "Enter a month number (1-12): " << endl;
     int month;
     cin >> month;
-    switch(month)
-    {
+    switch (month) {
         case 1:
             cout << "January" << endl;
-            break;  
+            break;
         case 2:
             cout << "February" << endl;
             break;
@@ -43,6 +41,6 @@ int main()
         case 12:
             cout << "December" << endl;
             break;
-        }
+    }
     return 0;
 }
